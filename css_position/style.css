@@ -172,10 +172,10 @@ p.isi {
     -webkit-border-radius: 70px;
     border-radius: 70px;
     border: 4px solid red;
-    position: absolute;
-    bottom: 264px;
+    position: relative;
+    bottom: 203px;
     /* left: 758px; */
-    right: 1103px;
+    right: -206px;
     text-align: center;
     padding-top: 5px;
     font-family: sans-serif;
@@ -191,10 +191,10 @@ p.isi {
     -webkit-border-radius: 70px;
     border-radius: 70px;
     border: 4px solid red;
-    position: absolute;
-    bottom: 264px;
+    position: relative;
+    bottom: 203px;
     /* left: 758px; */
-    right: 851px;
+    right: -322px;
     text-align: center;
     padding-top: 5px;
     font-family: sans-serif;
@@ -210,10 +210,10 @@ p.isi {
     -webkit-border-radius: 70px;
     border-radius: 70px;
     border: 4px solid red;
-    position: absolute;
-    bottom: 264px;
+    position: relative;
+    bottom: 203px;
     /* left: 758px; */
-    right: 599px;
+    right: -438px;
     text-align: center;
     padding-top: 5px;
     font-family: sans-serif;
@@ -229,10 +229,10 @@ p.isi {
     -webkit-border-radius: 70px;
     border-radius: 70px;
     border: 4px solid red;
-    position: absolute;
-    bottom: 264px;
+    position: relative;
+    bottom: 203px;
     /* left: 758px; */
-    right: 351px;
+    right: -555px;
     text-align: center;
     padding-top: 5px;
     font-family: sans-serif;
@@ -248,10 +248,10 @@ p.isi {
     -webkit-border-radius: 70px;
     border-radius: 70px;
     border: 4px solid red;
-    position: absolute;
-    bottom: 125px;
+    position: relative;
+    bottom: 63px;
     /* left: 758px; */
-    right: 1171px;
+    right: -37px;
     text-align: center;
     padding-top: 5px;
     font-family: sans-serif;
@@ -267,10 +267,10 @@ p.isi {
     -webkit-border-radius: 70px;
     border-radius: 70px;
     border: 4px solid red;
-    position: absolute;
-    bottom: 125px;
+    position: relative;
+    bottom: 63px;
     /* left: 758px; */
-    right: 916px;
+    right: -159px;
     text-align: center;
     padding-top: 5px;
     font-family: sans-serif;
@@ -286,10 +286,10 @@ p.isi {
     -webkit-border-radius: 70px;
     border-radius: 70px;
     border: 4px solid red;
-    position: absolute;
-    bottom: 125px;
+    position: relative;
+    bottom: 63px;
     /* left: 758px; */
-    right: 661px;
+    right: -276px;
     text-align: center;
     padding-top: 5px;
     font-family: sans-serif;
@@ -305,10 +305,10 @@ p.isi {
     -webkit-border-radius: 70px;
     border-radius: 70px;
     border: 4px solid red;
-    position: absolute;
-    bottom: 125px;
+    position: relative;
+    bottom: 63px;
     /* left: 758px; */
-    right: 408px;
+    right: -389px;
     text-align: center;
     padding-top: 5px;
     font-family: sans-serif;
@@ -328,7 +328,6 @@ p.isi {
 .footer {
     width: 100%;
     background-color: #504b4b;
-    margin-top: 25px;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 29px;
