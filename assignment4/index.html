@@ -1,510 +1,203 @@
-* {margin: 0; padding: 0;}
-
-
-
-.wrapper {
-    width: 1007px;
-    margin: auto;
-}
-
-/*HEADER START*/
-.header {
-	width: 100%;
-    height: 126px;
-    background-color: #504b4b;
-    display: inline-flex;
-    border-bottom: 7px solid red;
-    margin-bottom: 25px;
-    margin-top: 16px;
-    padding-top: 23px;
-}
-
-/*logo START*/
-.logo {
-    width: 15%;
-    height: 15%;
-    position: relative;
-    top: -5px;
-    left: 22px;
-}
-
-img.logopic {
-    width: 115px;
-}
-
-p.tmain {
-    position: absolute;
-    left: 132px;
-    top: -59px;
-    text-shadow: 4px 3px 0px #efeeee, 9px 8px 0px rgba(216, 91, 91, 0.75);
-    font-size: 68px;
-    font-family: 'Bungee', cursive;
-    color: #ebba35;
-}
-
-p.tsub {
-    position: absolute;
-    left: 138px;
-    top: 61px;
-    font-size: 24px;
-    width: 300px;
-    font-family: Arial, sans-serif;
-    color: grey;
-}
-span.s1 {
-    color: #ebba35;
-}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1/64 Diecast Car Model</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Orbitron|Work+Sans|Lato|Bungee" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-span.s2 {
-    color: #dc5146;
-}
+</head>
+<body>
 
-/*logo end*/
-
-/*menu START*/
-ul.headerul {
-    margin: 25px 0px 0px 352px;
-}
-
-li {
-    display: inline-block;
-    padding: 10px 20px 6px 20px;
-    text-align: center;
-    position: relative;
-    top: 0px;
-    margin: 0px 4px 0px 4px;
-    height: 43px;
-}
+<section class="wrapper"> <!--wrapper start-->
+<div class="header"><!--header start-->
+		<div class="logo">
+		<img src="car.png" alt="Logo" class="logopic" ; >
+		<p class="tmain">AMIR'S</p>
+		<p class="tsub"><span class="s1">DIECAST  </span> <span class="s2"> COLLECTION  </span> </p>
+		</div>
+			<ul class="headerul">
+				<li class="current"><a href="#">HOME</a></li>
+				<li><a href="#">MY COLLECTION</a></li>
+				<li><a href="#">CONTACT US</a></li>
 
-
-li:hover { 
-    background-color: #FFC107;
-    border-radius: 10px 10px 0px 0px;
-    height: 55px;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-
-
-}
-li.current { 
-    background-color: red;
-    border-radius: 10px 10px 0px 0px;
-    height: 56px;
-
-}
-
-a {
-    color: #f3f5f7;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: 'Lato', sans-serif;
-}
-
-
-
-i#iconh {
-    color: #fff;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    bottom: -4px;
-    left: -7px;
-}
-
-/*menu end*/
-
-/*HEADER END*/
-
-
-/*slider start*/
-
-.slback {
-    /* width: 100%; */
-    float: none;
-    }
-
-
-.slbox {
-    margin: 0 auto;
-    width: 554px;
-    float: none;
-}
-
-    @keyframes slider {
-0% { left: 0 }
-
-20% { left: 0 }
-
-25% { left: -100% }
-
-45% { left: -100% }
-
-50% { left: -200% }
-
-70% { left: -200% }
-
-75% { left: -300% }
-
-95% { left: -300% }
-
-100% { left: -400% }
-}
-
-#slider { overflow: hidden; }
-
-#slider figure img {
-    width: 20%;
-    float: left;
-}
-
-#slider figure {
-    position: relative;
-    width: 500%;
-    margin: 0;
-    left: 0;
-    text-align: left;
-    font-size: 0;
-    animation: 20s slider infinite;
-}
-
-
-
-/*slider end*/
-
-
-/*isi start*/
-
-.isi {
-    width: 100%;
-    background-color: #504b4b;
-    height: 100%;
-    padding: 10px;
-}
-
-div {    box-sizing: border-box;
-    float: left;
-}
-
-/*kotak kiri start*/
-
-.leftbox {
-    width: 17%;
-    background-color: #ff0030;
-    height: 601px;
-    text-align: center;
-    padding-top: 32px;
-    border: 2px dashed #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 0 4px #ff0030, 0px 0px 0px 0px;
-    line-height: 83px;
-    position: relative;
-    left: 4px;
-    font-weight: 800;
-    color: #fff;
-    font-family: sans-serif;
-}
-
-/*kotak kiri end*/
-
-
-/*kotak kanan start*/
-.rightbox {
-    width: 80%;
-    background-color: #f8fbfb;
-    position: relative;
-    left: 31px;
-    top: -4px;
-    height: auto;
-    border: 5px solid red;
-    text-align: justify;
-    padding-top: 23px;
-    padding-left: 23px;
-    padding-right: 23px;
-    border-radius: 10px;
-    font-family: sans-serif;
-    padding-bottom: 14px;
-}
-
-
-
-
-.tajuk {
-    margin: auto;
-    width: 318px;
-    height: 38px;
-    background-color: #ebba35;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 15px;
-    text-align: center;
-    color: #fff;
-    font-weight: bold;
-    font-size: x-large;
-    padding-top: 5px;
-}
-
-
-
-.line {
-    height: 20px;
-    width: 100%;
-    background-color: grey;
-    margin-bottom: 32px;
-}
-
-
-
-p.lft {
-    font-family: 'Baloo Bhai', cursive;
-    font-size: 25px;
-}
-
-p.crnt > a {color: #ebba35;
-}
-
-p:hover > a {color: #ebba35;
-}
-
-h1 {
-    margin-bottom: 14px;
-    color: #403e3e;
-    font-family: 'Baloo Bhai', cursive;
-    font-size: 27px;
-    text-align: center;
-}
-
-p.text {
-    line-height: 32px;
-    font-family: 'Work Sans', sans-serif;
-    padding-bottom: 10px;
-}
-
-.pic1 {
-    padding: 19px;
-    box-sizing: border-box;
-    position: relative;
-    overflow: hidden;
-}
-
-img.ImageBorder {
-    border: 9px solid #ebba35;
-    padding: 8px;
-    width: 354px;
-      max-width: 100%;
-  
-  -moz-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-img.ImageBorder:hover {
-      -moz-transform: scale(1.3);
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
-}
-
-/*kotak kanan end*/
-/*isi end*/
-
-
-.bapak {
-        width: 1007px;
-    /* PADDING-TOP: 10PX; */
-    padding-top: 45px;
-    padding-bottom: 45px;
-    background-color: #e0e4e2;
-    display: flex;
-    height: 100%;
-    margin-top: 25PX;
-}
-.anak {
-    width: 199px;
-    background-color: #f6c644;
-    height: 180px;
-    margin: auto;
-    border-radius: 10px;
-    border: 5px solid #d2b158;
-}
-
-
-.top {
-    width: 100%;
-    height: 21%;
-    background-color: #f6c644;
-    border-radius: 10px 10px 0px 0px;
-    text-align: center;
-    font-family: sans-serif;
-    padding-top: 11px;
-    color: #fff;
-    font-weight: bold;
-}
-
-.bottom {
-    width: 100%;
-    height: 76%;
-    background-color: #ffffff;
-    border-radius: 0px 0px 10px 10px;
-    margin: 0 auto;
-}
-
-
-
-img.brand1 {
-    width: 130px;
-    /* float: none; */
-    /* margin: 0 auto; */
-    position: relative;
-    /* top: 0; */
-    left: 33px;
-    /* right: 0; */
-    /* text-align: center; */
-}
-
-img.brand2 {
-    width: 124px;
-    position: relative;
-    left: 35px;
-    /* text-align: center; */
-}
-
-img.brand3 {
-    width: 183px;
-    position: relative;
-    left: 3px;
-    top: 24px;
-}
-
-
-
-.bujur {
-    width: 100px;
-    height: 36px;
-    background: #6d6b6b;
-    -moz-border-radius: 70px;
-    -webkit-border-radius: 70px;
-    border-radius: 70px;
-    border: 4px solid red;
-    position: relative;
-    bottom: 494px;
-    right: -120px;
-    text-align: center;
-    padding-top: 5px;
-    font-family: sans-serif;
-    color: #fff;
-    font-weight: bold;
-}
-
-.bujur1 {
-    width: 100px;
-    height: 36px;
-    background: #6d6b6b;
-    -moz-border-radius: 70px;
-    -webkit-border-radius: 70px;
-    border-radius: 70px;
-    border: 4px solid red;
-    position: relative;
-    bottom: 494px;
-    right: -350px;
-    text-align: center;
-    padding-top: 5px;
-    font-family: sans-serif;
-    color: #fff;
-    font-weight: bold;
-}
-
-.bujur2 {
-    width: 100px;
-    height: 36px;
-    background: #6d6b6b;
-    -moz-border-radius: 70px;
-    -webkit-border-radius: 70px;
-    border-radius: 70px;
-    border: 4px solid red;
-    position: relative;
-    bottom: 494px;
-    right: -590px;
-    text-align: center;
-    padding-top: 5px;
-    font-family: sans-serif;
-    color: #fff;
-    font-weight: bold;
-}
-
-
-
-.bujur:hover { background-color: red; }
-
-.bujur1:hover { background-color: red; }
-
-.bujur2:hover { background-color: red; }
-
-
-.form {
-    width: 485px;
-    background-color: #f6c644;
-    height: 311px;
-    margin: auto;
-    border-radius: 10px;
-    border: 5px solid #d2b158;
-    padding: 14px 25px 0px 18px;
-}
-
-i#icon {
-    font-size: 66px;
-    color: #ff0030;
-    position: relative;
-    top: -4px;
-    padding-right: 14px;
-}
-
-h3 {
-    padding-bottom: 4px;
-    color: #504b4b;
-    font-family: 'Work Sans', sans-serif;
-}
-
-p.pform {
-    padding-bottom: 6px;
-    font-family: 'Work Sans', sans-serif;
-}
-
-
-fieldset {
-    padding-left: 37px;
-    padding-top: 4px;
-    padding-bottom: 10px;
-}
-
-.fs1 {
-    padding-left: 37px;
-    padding-top: 4px;
-    padding-bottom: 10px;
-}
-
-.fs2 {
-    padding-left: 37px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-input[type="text"] {
-    display: inline-block;
-    padding-left: 6px;
-    width: 251px;
-}
-
-select.model {
-        width: 171px;
-}
-
-.footer {
-    width: 100%;
-    background-color: #504b4b;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 29px;
-    font-family: sans-serif;
-    color: #9e9d9d;
-    border-top: 7px solid red;
-    text-align: center;
-}
+			</ul>
+</div><!--header end-->
+
+<div class="slback">
+<div class="slbox"><!--sliderbox start-->
+<div id="slider"><!--slider start-->
+<figure>
+<img src="f1.jpg">
+<img src="f2.jpg">
+<img src="f3.jpg">
+<img src="f4.jpg">
+<img src="f5.jpg">
+</figure>
+
+
+</div><!--slider finish-->
+</div><!--sliderbox finish-->
+</div>
+
+
+
+<div class="isi"><!--isi start-->
+	
+<div class="leftbox"><!--left box start-->
+
+			<p class="lft">TOPIC</p>
+			<p class="crnt"> <a href="#">INTRO</a>  </p>
+			<p> <a href="#">BRAND</a></p>
+			<p> <a href="#">CATEGORY</a></p>
+			<p> <a href="#">DISPLAY</a></p>
+			<p> <a href="#">DIORAMA</a></p>
+
+</div><!--left box end-->
+
+	
+<div class="rightbox"><!--right box start-->
+		<div class="tajuk">Intro to 1/64 Diecast Car Model</div>
+		<div class="line"></div>
+		<h1>Collectable Diecast Model.</h1>
+		<div class="pic1">
+		<img src="ps.jpg"  class="ImageBorder" >
+		</div>
+		<p class="text">Some of the greatest things come in small packages. Diecast cars are no different. Collectable Diecast carries a wide range of smaller diecast models from manufacturers like Hot Wheels, Siku Diecast and Tomica , giving the collector all the bells and whistles without all the bulk.</p>
+		<br>
+		<p class="text">
+		Whether looking for iconic diecast cars from popular movies and TV shows or collectable versions of top-of-the-line sports cars, Collectable Diecast offers 1/64 scale pickup trucks, semi-trucks and automobiles that honor the vehicle they are modeled after, but without the larger price tag. These 1/64 scale diecast cars make it easy to own the greatest automobiles ever invented, right in the palm of your hand.</p>
+
+</div><!--right box end-->
+
+
+</div><!--isi end-->
+
+    <div class="bapak"><!--4box start-->
+
+		<div class="anak"><!--anak start-->
+			<div class="top">HOT WHEELS</div><!--1st top start-->
+			<div class="bottom"> 
+
+				<img src="Hwlogo.gif" class="brand1">	
+
+			</div><!--bottom end start-->
+		</div><!--anak end-->
+
+
+		<div class="anak"><!--anak start-->
+			<div class="top">SIKU DIECAST</div><!--1st top start-->
+			<div class="bottom">
+				
+				<img src="siku.png" class="brand2">	
+
+			</div><!--bottom end start-->
+		</div><!--anak end-->
+
+
+		<div class="anak"><!--anak start-->
+			<div class="top">TOMICA</div><!--1st top start-->
+			<div class="bottom">
+				
+				<img src="tomica.jpg" class="brand3">	
+
+			</div><!--2nd icon start-->
+		</div><!--anak end-->
+
+
+		
+	</div><!--4thbox end-->
+
+
+	</div><!--4box end-->
+				
+<div class="bapak">
+<div class="form">
+	<div><i class="material-icons" id="icon">email</i></div>
+	<h3>Amir's Diecast Newsletter</h3>
+	<p class="pform">Sign up for the Amir's Diecast Newsletter to get latest news on diecast collectable</p>
+	<br>
+
+<form action="action_page.php">
+<fieldset class="fs1">
+    <legend> <h3> PERSONAL INFORMATION: </h3></legend>
+  First name:<br>
+  <input type="text" name="firstname" value="firstname">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="lastname">
+  <br>
+  Email Address:<br>
+  <input type="text" name="Email Address" value="Email Address">
+  <br><br>
+  <input type="submit" value="SUBSCRIBE NEWSLETTER">
+  </fieldset>
+</form>
+
+
+</div>
+<div class="form">
+<fieldset class="fs2">
+	<legend> <h3>  SEARCH MODEL CAR: </h3></legend>
+
+Select Manufacturer
+<br>
+<form class="rbtn">
+  <input type="radio" name="Brand" value="Hotwheels" checked> Hotwheels<br>
+  <input type="radio" name="Brand" value="SikuDiecast"> Siku Diecast<br>
+  <input type="radio" name="Brand" value="Tomica"> Tomica
+</form>
+<br>
+
+Model
+<br>
+	<select name="model" class="model">
+    <option value="Ferrari">Ferrari</option>
+    <option value="Lamborghini">Lamborghini</option>
+    <option value="Audi">Audi</option>
+    <option value="BMW">BMW</option>
+    <option value="Mercedes">Mercedes</option>
+    <option value="Porsche">Porsche</option>
+    <option value="Toyota">Toyota</option>
+    <option value="Honda">Honda</option>
+    <option value="Mitsubishi">Mitsubishi</option>
+    <option value="Mazda">Mazda</option>
+    </select>
+ <br><br>
+Body Type
+<br>
+	<select name="body" class="model">
+    <option value="Hatchback">Hatchback</option>
+    <option value="SportCar">Sport Car</option>
+    <option value="Fourdoorsedan">Four-door sedan</option>
+    <option value="Convertable">Convertable</option>
+    <option value="Mpv">MPV</option>
+    <option value="4x4">4x4</option>
+ <br>
+   
+  </select>
+  <br><br>
+	<input type="submit" value="SEARCH NOW" onclick="#">
+</fieldset>
+</div>
+</div>
+				<div class="bujur">VISIT</div>
+	   			<div class="bujur1">VISIT</div>
+				<div class="bujur2">VISIT</div>
+
+
+
+	<div class="footer">Amir Rahimi bin Rahim, 2016. Terms & Conditions. Cookies Policy.
+	<p>acu4883@gmail.com</p></div><!--footer-->
+
+
+
+
+
+</section>
+
+
+</body>
+</html>
