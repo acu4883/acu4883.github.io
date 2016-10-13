@@ -74,20 +74,20 @@ p.pmenu:hover {
 
 
 /*ANIMATION START*/
-/* Chrome, Safari, Opera */ /*
+/* Chrome, Safari, Opera */ 
 @-webkit-keyframes example {
     0%   {background-color:aquamarine; color:#F44336; opacity: 0.6; left: 913px; }
     50%  {background-color:yellow; color:#1e95d4; opacity: 0.6; left:155px; }
     85%  {background-color:#d800ff; color:#fff; opacity: 0.6; left:913px; }
-    100%  {background-color:aquamarine; color:#F44336; opacity: 0.6; left:913px;}
+	100%  {background-color:aquamarine; color:#F44336; opacity: 0.6; left:913px;}}
 
 
 @keyframes example {
     0%   {background-color:aquamarine; color:#F44336; opacity: 0.6; left: 913px;}
     50%  {background-color:yellow; color:#1e95d4; opacity: 0.6; left:155px;}
     85%  {background-color:#d800ff; color:#fff; opacity: 0.6; left:913px;}
-    100%  {background-color:aquamarine; color:#F44336; opacity: 0.6; left:913px;}
-*/
+	100%  {background-color:aquamarine; color:#F44336; opacity: 0.6; left:913px;}}
+
 /*ANIMATION END*/
 
 
