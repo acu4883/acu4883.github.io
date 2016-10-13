@@ -185,13 +185,159 @@ p.maintext {
 
 .form {
     width: 100%;
-    height: 100px;
+    height: 377px;
     background-color: #3787b1;
+    margin: 0 auto;
+    display: flex;
+}
+
+.subform {
+    width: 545px;
+    background-color: antiquewhite;
+    height: 310px;
+    margin: auto;
+}
+
+
+.form-style-4 {
+    width: 475px;
+    height: 256px;
+    font-size: 16px;
+    background: #68b0d6;
+    padding: 30px 30px 15px 30px;
+    border: 5px solid #1974a5;
+}
+
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button],
+.form-style-4 input[type=text],
+.form-style-4 input[type=email],
+.form-style-4 textarea,
+.form-style-4 label
+{
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    color: #fff;
+
+}
+.form-style-4 label {
+    display:block;
+    margin-bottom: 10px;
+}
+.form-style-4 label > span{
+    display: inline-block;
+    float: left;
+    width: 150px;
+}
+.form-style-4 input[type=text], .form-style-4 input[type=email] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px dashed #faebd7;
+    width: 275px;
+    outline: none;
+    padding: 0px 0px 0px 0px;
+    font-style: italic;
+}
+
+
+.form-style-4 textarea {
+    font-style: italic;
+    padding: 0px 0px 0px 0px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px dashed #faebd7;
+    width: 275px;
+    overflow: hidden;
+    resize: none;
+    height: 20px;
+}
+
+.form-style-4 textarea:focus, 
+.form-style-4 input[type=text]:focus,
+.form-style-4 input[type=email]:focus,
+.form-style-4 input[type=email] :focus
+{
+    border-bottom: 1px dashed #D9FFA9;
+}
+
+.form-style-4 input[type=submit], 
+.form-style-4 input[type=button] {
+    background: #3787b1;
+    border: none;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+    color: #faebd7;
+}
+.form-style-4 input[type=submit]:hover,
+.form-style-4 input[type=button]:hover{
+background: #394D61;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: antiquewhite;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: antiquewhite;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: antiquewhite;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: antiquewhite;
+}
+
+label.radio-inline {
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    vertical-align: middle;
+    cursor: pointer;
+        font-family: 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    color: antiquewhite;
+}
+p.pform1 {
+    margin-bottom: 5px;
+    margin-left: 21px;
+    font-family: Lato, Times, serif;
+    font-size: 20px;
+    color: #faebd7;
+}
+
+p.pform {
+    margin-top: 22px;
+    margin-bottom: 10px;
+    color: #f9f8f7;
+    margin-left: 21px;
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+label.chbx {
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    vertical-align: middle;
+    cursor: pointer;
+        font-family: 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    color: antiquewhite;
 }
 
 .footer {
     width: 100%;
-    height: 100px;
+    height: 63px;
     background-color: #68b0d6;
     color: #fff;
+    padding-top: 11px;
+}
+
+p.pfooter {
+    text-align: center;
 }
