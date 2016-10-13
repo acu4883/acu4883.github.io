@@ -41,7 +41,7 @@ img.pic1 {
 }
 
 .topmenu {
-	padding-top: 10px;
+    padding-top: 10px;
     width: 216px;
     height: 356px;
     background-color: aquamarine;
@@ -53,6 +53,7 @@ img.pic1 {
     line-height: 4;
     text-align: center;
     position: relative;
+    top: 11px;
     left: 913px;
     animation-name: example;
     animation-duration: 5s;
