@@ -10,20 +10,21 @@ div {
 
 section {
     width: 1319px;
-    height: 640px;
+    height: 1066px;
     margin: 0 auto;
+    background-color: #3787b1;
 }
 
 .header {
     width: 100%;
-    height: 499px;
+    height: 612px;
     background-color: #68b0d6;
     border-bottom: 9px solid #3787b1;
 }
 
 .tajuk {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     TEXT-ALIGN: center;
     font-family: 'Days One', sans-serif;
     color: #fff;
@@ -37,7 +38,7 @@ img.pic1 {
     position: absolute;
     left: 0;
     right: 0;
-    border: 11px solid white;
+    border: 29px solid white;
 }
 
 .topmenu {
@@ -53,7 +54,7 @@ img.pic1 {
     line-height: 4;
     text-align: center;
     position: relative;
-    top: 11px;
+    top: 29px;
     left: 913px;
     animation-name: example;
     animation-duration: 5s;
@@ -96,9 +97,13 @@ p.pmenu:hover {
 
 .left {
     width: 21%;
-    height: 440px;
+    height: 352px;
     background-color: #68b0d6;
-    border: 15px solid #3787b1;
+    /* border: 15px solid #3787b1; */
+    border-top: 27px solid #3787b1;
+    border-bottom: 15px solid #3787b1;
+    border-right: 1px solid #3787b1;
+    border-left: 33px solid #3787b1;
 }
 
 p.pleft {
@@ -111,6 +116,7 @@ p.pleft {
     font-size: 26px;
     color: #fff;
     background-color: #026592;
+    border-right: 45px solid #3787b1;
 }
 
 p.pleft:hover { 
@@ -121,7 +127,7 @@ p.pleft:hover {
 li.lileft {
     text-decoration: none;
     list-style: none;
-    border-right: 5px solid #68b0d6;
+    border-right: 45px solid #3787b1;
     text-align: center;
     font-family: Lato, sans-serif;
     font-size: 19px;
@@ -134,7 +140,7 @@ li.lileft:hover {
     background-color: #61c2ef;
     text-decoration: none;
     list-style: none;
-    border-left: 52px solid #026592;
+    border-left: 52px solid #3787b1;
     border-right: 5px solid #FFEB3B;
     color: #ffeb3b;
     transition: all 0.3s;
@@ -142,7 +148,7 @@ li.lileft:hover {
 
 .right {
     width: 79%;
-    height: 440px;
+    height: 453px;
     background-color: #3787b1;
     border: 15px solid #3787b1;
     padding-left: 20px;
@@ -159,6 +165,24 @@ h1 {
     margin: 0 0 35px;
 }
 
+.h1right {
+    width: 32%;
+    height: 100px;
+}
+
+.h1middle {
+    width: 32%;
+    height: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+img.wave {
+    width: 268px;
+    margin-top: 13px;
+    margin-left: 12px;
+}
+
 p.maintext {
     color: #c6cdd2;
     font-family: 'Lucida Sans', Arial, sans-serif;
@@ -169,35 +193,149 @@ p.maintext {
     margin-bottom: 17px;
 }
 
+.newspaper {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    color: #c6cdd2;
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-indent: 30px;
+    margin: 0;
+    margin-bottom: 17px;
+    column-gap: 50px;
+    padding-left: 16px;
+    padding-right: 29px;
+}
+
+.videodiv {
+    width: 100%;
+    height: 451px;
+    background-color: #68b0d6;
+    border-bottom: 3px solid #3787b1;
+    margin: 0 auto;
+    display: flex;
+}
+
+.svid {
+    width: 618px;
+    background-color: #3787b1;
+    height: 369px;
+    margin: auto;
+}
+
+video {
+    width: 568px;
+    border: 14px solid #fff;
+    padding: 11px;
+}
 
 .middle {
     width: 100%;
-    height: 313px;
+    height: 386px;
     background-color: #68b0d6;
     margin: 0 auto;
     display: flex;
 }
 
 .submiddle {
-    width: 227px;
+    width: 295px;
     background-color: white;
-    height: 247px;
+    height: 300px;
     margin: auto;
 }
 
 
 img.mpic {
-    width: 190px;
-    height: 160px;
+    width: 256px;
+    height: 207px;
+    margin-left: 6px;
+    margin-top: 19px;
+    border: 6px solid #FFEB3B;
+    padding: 6px;
+    
+}
+
+img.mpic:hover {
+    width: 256px;
+    height: 207px;
+    margin-left: 6px;
+    margin-top: 19px;
+    border: 6px solid #FFEB3B;
+    padding: 6px;
+
+}
+
+img.npic {
+    width: 256px;
+    height: 208px;
     margin-left: 6px;
     margin-top: 19px;
     border: 6px solid #68b0d6;
     padding: 6px;
+    top: -255px;
+    position: relative;
 }
+
+img.npic:hover {
+    width: 256px;
+    height: 208px;
+    margin-left: 6px;
+    margin-top: 19px;
+    border: 6px solid #68b0d6;
+    padding: 6px;
+    top: -255px;
+    position: relative;
+    opacity: 0;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+p.sm {
+    position: relative;
+    top: -246px;
+    /* left: -1px; */
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-size: 19px;
+    color: #1974a5;
+    font-weight: 600;
+}
+
+i#icon {
+    font-size: 66px;
+    color: #1974a5;
+    position: relative;
+    top: -4px;
+    padding-right: 14px;
+}
+
+.f1 {
+    width: 17%;
+}
+.f2 {
+    width: 83%;
+    height: 91px;
+}
+
+span.sform {
+    color: #c6cdd2;
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+h3 {
+    font-family: Lato, sans-serif;
+    font-size: 19px;
+    color: #fff;
+    margin-bottom: 9px;
+}
+
 
 .form {
     width: 100%;
-    height: 377px;
+        height: 431px;
     background-color: #3787b1;
     margin: 0 auto;
     display: flex;
@@ -212,8 +350,8 @@ img.mpic {
 
 
 .form-style-4 {
-    width: 475px;
-    height: 256px;
+    width: 489px;
+    height: 266px;
     font-size: 16px;
     background: #68b0d6;
     padding: 30px 30px 15px 30px;
