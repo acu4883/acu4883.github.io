@@ -305,14 +305,16 @@ p.sm {
     margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
 }
 
 p.sm:hover {
    background-color: #68b0d6;
     padding-top: 13px;
     padding-bottom: 13px;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
+    color: #ffeb3b;
+    
 }
 
 i#icon {
