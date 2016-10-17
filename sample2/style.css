@@ -311,6 +311,7 @@ p.sm {
 
 p.sm:hover {
    background-color: #68b0d6;
+    font-size: 21px;
     padding-top: 13px;
     padding-bottom: 13px;
     color: #ffeb3b;
