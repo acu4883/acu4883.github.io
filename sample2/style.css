@@ -307,6 +307,14 @@ p.sm {
     padding-bottom: 10px;
 }
 
+p.sm:hover {
+   background-color: #68b0d6;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
 i#icon {
     font-size: 66px;
     color: #1974a5;
