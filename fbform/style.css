@@ -70,4 +70,8 @@ input[type="button"] {
     color: #fff;
     font-size: 25px;
     border-radius: 10px;
+        background: -webkit-linear-gradient(#4bff00, #1d713b);
+    background: -o-linear-gradient(#4bff00, #1d713b);
+    background: -moz-linear-gradient(#4bff00, #1d713b);
+    background: linear-gradient(#4bff00, #1d713b);
 }
