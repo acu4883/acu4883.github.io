@@ -58,6 +58,8 @@ select.date3 {
     display: inline-block;
     margin-bottom: 20px;
         vertical-align: top;
+    font-size: 13px;
+    padding-top: 4px;
 }
 p {
     font-size: 14px;
