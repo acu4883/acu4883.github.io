@@ -1,0 +1,73 @@
+* {
+margin: 0;
+padding:0;
+font-family: Helvetica;
+}	
+section {
+    width: 500px;
+    background-color: aliceblue;
+    padding: 50px;
+}
+h1 {
+    font-size: 37px;
+    /* font-family: Helvetica; */
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 18px;
+    margin-bottom: 26px;
+}
+input.f1 {
+    width: 214px;
+    padding: 10px 3px 10px 3px;
+    margin-right: 3px;
+}
+input.f2 {
+    width: 214px;
+    padding: 10px 3px 10px 3px;
+        margin-bottom: 10px;
+}
+
+input.f3 {
+    width: 446px;
+    margin-bottom: 10px;
+    padding: 10px 3px 10px 3px;
+}
+
+h3 {
+    margin-top: 15px;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+select.date1 {
+    padding: 10px 3px 10px 3px;
+}
+
+select.date2 {
+    padding: 10px 3px 10px 3px;
+}
+
+select.date3 {
+    padding: 10px 3px 10px 3px;
+    margin-right: 8px;
+}
+
+.years {
+    width: 205px;
+    display: inline-block;
+    margin-bottom: 20px;
+        vertical-align: top;
+}
+p {
+    font-size: 14px;
+}
+
+input[type="button"] {
+    padding: 15px 8px 15px 8px;
+    width: 190px;
+    background-color: green;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 10px;
+}
