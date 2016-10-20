@@ -3,13 +3,29 @@ margin: 0;
 padding:0;
 font-family: Helvetica;
 }	
+
+body {
+    background-color: black;
+}
+
 section {
+    
+}
+
+.wrapper {
     width: 500px;
     background-color: aliceblue;
     padding: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 50px;
 }
+
+
 h1 {
-    font-size: 37px;
+    font-size: 40px;
     /* font-family: Helvetica; */
     margin-bottom: 10px;
 }
@@ -19,19 +35,27 @@ h2 {
 }
 input.f1 {
     width: 214px;
-    padding: 10px 3px 10px 3px;
+    padding: 10px 3px 10px 9px;
     margin-right: 3px;
+    font-size: 18px;
 }
 input.f2 {
     width: 214px;
-    padding: 10px 3px 10px 3px;
-        margin-bottom: 10px;
+    padding: 10px 3px 10px 9px;
+    margin-bottom: 10px;
+    font-size: 18px;
 }
 
 input.f3 {
-    width: 446px;
+        width: 451px;
     margin-bottom: 10px;
-    padding: 10px 3px 10px 3px;
+    padding: 10px 3px 10px 9px;
+    margin-right: 3px;
+    font-size: 18px;
+}
+
+input.rbutton {
+    margin-left: 21px;
 }
 
 h3 {
@@ -54,15 +78,16 @@ select.date3 {
 }
 
 .years {
-    width: 205px;
+    width: 194px;
     display: inline-block;
-    margin-bottom: 20px;
-        vertical-align: top;
-    font-size: 13px;
+    margin-bottom: 28px;
+    vertical-align: top;
+    font-size: 12px;
     padding-top: 4px;
 }
 p {
-    font-size: 14px;
+    font-size: 12px;
+    margin-bottom: 31px;
 }
 
 input[type="button"] {
@@ -72,8 +97,17 @@ input[type="button"] {
     color: #fff;
     font-size: 25px;
     border-radius: 10px;
-        background: -webkit-linear-gradient(#4bff00, #1d713b);
-    background: -o-linear-gradient(#4bff00, #1d713b);
-    background: -moz-linear-gradient(#4bff00, #1d713b);
-    background: linear-gradient(#4bff00, #1d713b);
+        background: -webkit-linear-gradient(#77e24b, #1d713b);
+    background: -o-linear-gradient(#77e24b, #1d713b);
+    background: -moz-linear-gradient(#77e24b, #1d713b);
+    background: linear-gradient(#77e24b, #1d713b);
+}
+
+input[type="button"]:hover {
+    background: -webkit-linear-gradient(#5eec23, #3f9e61);
+    background: -o-linear-gradient(#5eec23, #3f9e61);
+    background: -moz-linear-gradient(#5eec23, #3f9e61);
+    background: linear-gradient(#5eec23, #3f9e61);
+
+
 }
