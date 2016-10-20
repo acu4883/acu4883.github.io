@@ -107,10 +107,10 @@ input[type="button"] {
 }
 
 input[type="button"]:hover {
-    background: -webkit-linear-gradient(#5eec23, #3f9e61);
-    background: -o-linear-gradient(#5eec23, #3f9e61);
-    background: -moz-linear-gradient(#5eec23, #3f9e61);
-    background: linear-gradient(#5eec23, #3f9e61);
+    background: -webkit-linear-gradient(#3f9e61, #5eec23);
+    background: -o-linear-gradient(#3f9e61, #5eec23);
+    background: -moz-linear-gradient(#3f9e61, #5eec23);
+    background: linear-gradient(#3f9e61, #5eec23);
 
 
 }
