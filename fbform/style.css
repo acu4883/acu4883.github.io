@@ -69,6 +69,7 @@ h3 {
 
 select.date1 {
     padding: 10px 3px 10px 3px;
+    width: 72px;
 }
 
 select.date2 {
