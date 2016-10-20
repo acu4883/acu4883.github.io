@@ -73,11 +73,13 @@ select.date1 {
 
 select.date2 {
     padding: 10px 3px 10px 3px;
+    width: 60px;
 }
 
 select.date3 {
     padding: 10px 3px 10px 3px;
     margin-right: 8px;
+    width: 60px;
 }
 
 .years {
