@@ -38,12 +38,14 @@ input.f1 {
     padding: 10px 3px 10px 9px;
     margin-right: 3px;
     font-size: 18px;
+    border-radius: 5px;
 }
 input.f2 {
     width: 214px;
     padding: 10px 3px 10px 9px;
     margin-bottom: 10px;
     font-size: 18px;
+    border-radius: 5px;
 }
 
 input.f3 {
@@ -52,6 +54,7 @@ input.f3 {
     padding: 10px 3px 10px 9px;
     margin-right: 3px;
     font-size: 18px;
+    border-radius: 5px;
 }
 
 input.rbutton {
