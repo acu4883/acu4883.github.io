@@ -1,0 +1,57 @@
+.navbar-inverse .navbar-nav>li>a:hover {
+	background-color: #c15c5c;
+	transition: all 2s;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+}
+span.text1 {
+    color: #e0376e;
+}
+
+span.text2 {
+    color: #ab46cc;
+}
+
+span.text3 {
+    color: coral;
+}
+
+span.text4 {
+    color: #08aaf3;
+}
+
+span.text5 {
+    color: #32ab30;
+}
+
+.rowheader {
+    margin-top: 20%;
+    margin-bottom: 6%;
+}
+
+header {
+    margin-bottom: 2%;
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(bg01.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    min-height: 460px;
+    -o-background-size: cover;
+
+}
+
+footer.footer {
+    margin-top: 7%;
+    padding-top: 1%;
+    background: #232323;
+}
+
+h1.page-header.col-lg-12.text-center {
+    line-height: 3;
+}
