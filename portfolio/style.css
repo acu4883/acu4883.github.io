@@ -46,6 +46,19 @@ header {
 
 }
 
+img.img-responsive.img-circle {
+    padding: 5px;
+    border: 7px solid #fff;
+}
+
+.col-md-4.portfolio-item {
+    margin-bottom: 60px;
+}
+
+small.col-lg-12.col-md-12.text-center {
+    margin-bottom: 30px;
+}
+
 footer.footer {
     margin-top: 7%;
     padding-top: 1%;
