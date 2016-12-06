@@ -46,7 +46,7 @@ header {
 
 }
 
-img.img-responsive.img-circle {
+img.picprof {
     padding: 5px;
     border: 7px solid #fff;
 }
@@ -55,7 +55,7 @@ img.img-responsive.img-circle {
     margin-bottom: 60px;
 }
 
-small.col-lg-12.col-md-12.text-center {
+.stext {
     margin-bottom: 30px;
 }
 
